@@ -1,0 +1,18 @@
+# NPM
+node_modules
+npm-debug.log
+
+# NPM
+bower_components
+npm-debug.log
+
+# Code Editor Settings
+.idea
+.vs
+
+# Build Generated Files
+src/app/**/*.js
+src/app/**/*.js.map
+
+
+

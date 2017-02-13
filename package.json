@@ -1,0 +1,26 @@
+{
+  "name": "life-path-site",
+  "version": "1.0.0",
+  "description": "site builders",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nipho",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-copy": "0.0.2",
+    "gulp-flatten": "^0.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "sass": "^0.5.0"
+  },
+  "dependencies": {
+    "gulp-clean": "^0.3.2"
+  }
+}

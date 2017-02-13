@@ -1,0 +1,49 @@
+﻿@import 'vendor/bootstrap';
+@import 'vendor/font-awesome';
+@import 'vendor/datetimepicker.scss';
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #ffffff;
+    background-color: #7003A9;
+
+    header {
+        h1 {
+            text-align: center;
+        }
+    }
+}
+
+#btnCalculatePath {
+    background-color: #B68BBB;
+    border-radius: 0;
+    border-color: transparent;
+}
+
+#CalculatedResult {
+    background-color: #B68BBB;
+    margin-top: 5%;
+    text-align: center;
+
+    .number-selected {
+        display: table;
+        margin: 2% auto;
+        width: 20%;
+        height: 20%;
+        border-radius: 100%;
+        background-color: #7003A9;
+    }
+
+    h2 {
+    }
+
+    h3 {
+        font-style: italic;
+    }
+
+    p {
+        font-size: large;
+    }
+}
